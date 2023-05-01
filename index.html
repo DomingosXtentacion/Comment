@@ -36,7 +36,8 @@ content="100%">
   #hi{width:100% ;
     background-image:url("bg_1.gif");
          background-repeat:no-repeat;
-     height: 300px;}
+     height: 300px;
+}
   #comm{
     margin-left:10px;;
     width:300px;
@@ -67,10 +68,41 @@ border-radius:9px;
               }
        .bg {
              
-         background-color:white;
-            background-image:url("fundo.png ");
-         background-repeat:no-repeat;
+         background-color:#B0B0B0;
+            Animation-name:bgs;
+Animation-duration:3s;
+Animation-iteration-count:infinite;
+
             }
+@key-frames bgs{
+0%{
+Background-image:URL("bg_2.gif");
+Background-repeat:no-repeat;
+Width:100%;
+Height:90%;}
+}
+
+
+20%{Background:linear-gradient(to left,black,aqua);;
+Width:100%;
+Height:90%;}
+40%{20%{Background:linear-gradient(to right,aqua,black);;
+Width:100%;
+Height:90%;}
+60%{20%{Background:linear-gradient(to top, Yellow,black);;
+Width:100%;
+Height:90%;}
+80%{20%{Background:linear-gradient(to left,black,Yellow);;
+Width:100%;
+Height:90%;}
+100%{
+Background-image:URL("bg_1.gif");
+Background-repeat:no-repeat;
+Width:100%;
+Height:90%;}
+}
+
+}
 //.bg-2{
 //Background-image:URL("bg_2.gif");
 //Background-repeat:no-repeat;
@@ -117,11 +149,11 @@ var b=document.getElementById('comm');
    <h1 style="color:yellow;font-variant:small-caps;font-weight:300px;text-indent:10px;font-size:27px;background:black;height:60px;">Uniblack
   <button onclick="qst()" class="question">?</button></h1>
   </div><div id="hi" >
-    <h1 style="color:#4EB7D0;font-size:30px;text-align:left;font-weight:50px;height:106px;" id="title">Codigos Dos Comentarios Do Facebook </h1>
-    <h4 id="comm">Seja bem-vindo a UniBlack Aqui onde repitiras ou Veras pela primeira vez codigos do comentario do Facebook ,Fique avontade e aproveite os codigos.</h4>
+    <h1 style="color:#4EB7D0;font-size:30px;text-align:left;font-weight:50px;height:106px;" id="title">Codigos Do Facebook </h1>
+    <h4 id="comm">Seja bem-vindo a UniBlack Aqui onde irás repetir ou verás pela primeira vez códigos do comentário do Facebook ,Fique a vontade e aproveite os codigos.</h4>
     <button onclick="hello();" class="btnch">Ver</button>
   </div>
-<H4 style="color:Yellow;height:60px;font-size:18px;font-style:Bold; background:black;"><center>Codigo Dos Comentarios,abaixo</center></H4>
+<H4 style="color:Yellow;height:60px;font-size:18px;font-style:Bold; background:black;"><center>Códigos,baixo!</center></H4>
 	<div class="codis">
 		
 		@+[200767586721995:] Código de Likes falsos.
